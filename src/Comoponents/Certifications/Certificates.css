@@ -45,6 +45,7 @@
     border: solid gray 1px;
     margin: 10px;
     transition: transform 0.3s;
+    margin-left: 50px;
   }
   
   .cert-card img:hover {

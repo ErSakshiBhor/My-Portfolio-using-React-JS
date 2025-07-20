@@ -46,6 +46,7 @@ const Certificates = () => {
                 <img src={certificate6} alt="Certificate 4" />
                 <div className="cert-info">Training in Web Development | Agu 2024</div>
             </div>
+            <a href=''>see more</a> 
         </div>
 
     </div>
