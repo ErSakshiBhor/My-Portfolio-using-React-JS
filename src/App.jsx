@@ -1,12 +1,12 @@
 //rafce
 import React from 'react'
-import Navbar from './Comoponents/Navbar/Navbar'
-import Hero from './Comoponents/Hero/Hero'
-import About from './Comoponents/About/About'
-import Certificates from './Comoponents/Certifications/Certificates'
-import MyWork from './Comoponents/MyWork/MyWork'
-import Contact from './Comoponents/Contact/Contact'
-import Footer from './Comoponents/Footer/Footer'
+import Navbar from './Components/Navbar/Navbar'
+import Hero from './Components/Hero/Hero'
+import About from './Components/About/About'
+import Certificates from './Components/Certifications/Certificates'
+import MyWork from './Components/MyWork/MyWork'
+import Contact from './Components/Contact/Contact'
+import Footer from './Components/Footer/Footer'
 
 const App = () => {
   return (
