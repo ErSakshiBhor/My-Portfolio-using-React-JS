@@ -55,10 +55,15 @@
 }
 
 .about-skill{
-    display: flex;
+    /* display: flex;
     gap: 50px;
     align-items: center;
-    transition: 0.3s;
+    transition: 0.3s; */
+     display: flex;
+    flex-direction: column;
+    align-items: flex-start;  /* ✅ left align so hr takes given width */
+    gap: 20px;
+    width: 100%; 
 }
 
 .about-skill p{
@@ -115,4 +120,5 @@
     .about-skill hr{
         height: 6px;
     }
-}
+} 
+

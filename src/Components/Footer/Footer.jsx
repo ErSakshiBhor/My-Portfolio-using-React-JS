@@ -5,6 +5,7 @@ import user_icon from '../../assets/user_icon.svg'
 import linkedin from '../../assets/linkedin.png'
 import github from '../../assets/github.png'
 import email from '../../assets/email.svg'
+import leetcode from '../../assets/leetcode.png'
 
 const Footer = () => {
     return (
@@ -34,6 +35,9 @@ const Footer = () => {
                     </a>
                     <a href='mailto:sakshibhor2005@gmail.com'>
                         <img src={email} alt="" />
+                    </a>
+                    <a href='https://leetcode.com/u/sakshi_bhor/'>
+                        <img src={leetcode} alt="" />
                     </a>
                 </div>
 
