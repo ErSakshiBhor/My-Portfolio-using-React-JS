@@ -25,7 +25,7 @@ const Footer = () => {
             </div>
             <hr />
             <div className="footer-bottom">
-                <p className="footer-bottom-left">@ 2005 Sakshi Bhor.</p>
+                <p className="footer-bottom-left">@2025 Sakshi Bhor.</p>
                 <div className='logos' >
                     <a href='https://linkedin.com/in/sakshi-bhor-40a55425a'>
                         <img src={linkedin} alt="" />
