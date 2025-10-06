@@ -21,7 +21,7 @@ const Hero = () => {
         <div className="hero-connect"><AnchorLink className='anchor-link' offset={50} href='#contact'>Connect with me</AnchorLink></div>
         <div className="hero-resume">
             <a 
-              href="../../Sakshi_Bhor_FullstackDeveloper.pdf" 
+              href="../../public/SakshiBhor_FullStackDeveloper.pdf" 
               target="_blank" 
               rel="noopener noreferrer" 
               className="anchor-link"

@@ -3,8 +3,9 @@ import './MyWork.css'
 import theme_pattern from '../../assets/theme_pattern.svg'
 import security from '../../assets/security.jpg'
 import auth from '../../assets/auth.jpeg'
-import netflix from '../../assets/netflix.jpg'
 import news from '../../assets/news.jpeg'
+import bucketstudyBackeground from '../../assets/bucketstudyBackeground.png'
+// '../../assets/bucketstudyBackground.png'
 
 import QR from '../../assets/qr.jpeg'
 import textutils from '../../assets/textutils1.png'
@@ -33,10 +34,10 @@ const MyWork = () => {
         </div>
 
         <div className="mywork-card">
-          <img src={netflix} alt="Netflix Clone" />
-          <h2>Netflix Clone</h2>
-          <p>Build frontend using HTML and CSS</p>
-          <a className="know-more" href="#">know more</a>
+          <img src={bucketstudyBackeground} alt="bucketstudy Clone" />
+          <h2>BucketStudy Clone</h2>
+          <p>Build using ReactJs, React Routers,CSS, Mongodb and Springboot </p>
+          <a className="know-more" href="https://github.com/BucketStudy-EduTech/bucketstudy-frontend">know more</a>
         </div>
       </div>
 
