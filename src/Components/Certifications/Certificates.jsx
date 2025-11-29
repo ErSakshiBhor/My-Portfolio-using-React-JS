@@ -12,6 +12,8 @@ import certificate7 from '../../assets/certficate7.jpg';
 import certificate8 from '../../assets/bucketstudy1.jpg';
 import certificate9 from '../../assets/bucketstudy2.jpg';
 import certificate10 from '../../assets/PythonUsingAI.jpg';
+import certificate11 from '../../assets/payrollCer.jpg';
+import certificate12 from '../../assets/internship_completion.jpg';
 
 const Certificates = () => {
   const [showAll, setShowAll] = useState(false);
@@ -22,6 +24,8 @@ const Certificates = () => {
     { img: certificate2, text: 'Basic to Advance CSS | Jan 2025' },
     { img: certificate8, text: 'Internship Project 1 | 2025' },
     { img: certificate9, text: 'Internship Project 2 | 2025' },
+    { img: certificate11, text: 'Internship Project 3 | 2025' },
+    { img: certificate12, text: 'Internship Completion | 2025' },
     { img: certificate10, text: 'Python using AI | 2025' },
     { img: certificate3, text: 'Google Analytics | 2024' },
     { img: certificate4, text: 'SIH Hackathon | Aug 2024' },
