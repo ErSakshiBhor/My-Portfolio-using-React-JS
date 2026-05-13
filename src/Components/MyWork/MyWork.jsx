@@ -18,12 +18,18 @@ const MyWork = () => {
         <img className="mywork-title-img" src={theme_pattern} alt="" />
       </div>
 
+
+      
+
+
       <div className="mywork-cards">
+        
+
         <div className="mywork-card">
-          <img src={security} alt="Women's Security Portal" />
-          <h2>Women's Security side web portal</h2>
-          <p>Build to solve womens problems that face in day to day life</p>
-          <a className="know-more" href="https://ersakshibhor.github.io/Women-s-Security-Side-Web-Portal/newhome.html">know more</a>
+          <img src={news} alt="Quik News" />
+          <h2>Quick News App</h2>
+          <p>A quick and responsive React-based news app that fetches real-time headlines using a news API.</p>
+          <a className="know-more" href="https://news-deployer--sakshibhor2005.replit.app/">know more</a>
         </div>
 
         <div className="mywork-card">
@@ -39,16 +45,22 @@ const MyWork = () => {
           <p>Build using ReactJs, React Routers,CSS, Mongodb and Springboot </p>
           <a className="know-more" href="https://github.com/BucketStudy-EduTech/bucketstudy-frontend">know more</a>
         </div>
-      </div>
+
+       
 
 {/* //second column */}
 
         <div className="mywork-cards">
+        
+
+      
+
+
         <div className="mywork-card">
-          <img src={news} alt="Quik News" />
-          <h2>Quick News App</h2>
-          <p>A quick and responsive React-based news app that fetches real-time headlines using a news API.</p>
-          <a className="know-more" href="https://github.com/ErSakshiBhor/quick_news">know more</a>
+          <img src={security} alt="Women's Security Portal" />
+          <h2>Women's Security side web portal</h2>
+          <p>Build to solve womens problems that face in day to day life</p>
+          <a className="know-more" href="https://ersakshibhor.github.io/Women-s-Security-Side-Web-Portal/newhome.html">know more</a>
         </div>
 
          <div className="mywork-card">
@@ -64,6 +76,9 @@ const MyWork = () => {
           <p>A Django-based Text Utils web app that performs text transformations like removing punctuation, changing case, and counting characters</p>
           <a className="know-more" href="https://textutils-5jtl.onrender.com/">know more</a>
         </div> 
+
+         
+      </div>
       </div> 
 
     </div>
